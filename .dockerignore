@@ -1,0 +1,9 @@
+node_modules
+.env
+.next
+.vscode
+.eslintrc.cjs
+.env.example
+.gitignore
+README.md
+start-database.sh
