@@ -51,7 +51,7 @@ export const sessionTokenController = {
   generateCookieOptions: (exp: Date): Partial<ResponseCookie> => ({
     secure: true,
     httpOnly: true,
-    sameSite: env.NODE_ENV === "production" ? "strict" : "none",
+    // sameSite: env.NODE_ENV === "production" ? "strict" : "none",
     domain: env.APP_DOMAIN,
     expires: exp,
   }),

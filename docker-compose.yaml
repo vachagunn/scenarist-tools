@@ -1,6 +1,6 @@
 services:
   app:
-    image: scenarist-tools:0.1.0
+    image: ghcr.io/vachagunn/scenarist-tools:main
     restart: always
     ports:
       - "3000:3000"

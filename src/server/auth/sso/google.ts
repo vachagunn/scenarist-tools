@@ -32,7 +32,7 @@ const googleSsoProvider = {
     cookies().set("state", state, {
       secure: true,
       httpOnly: true,
-      sameSite: env.NODE_ENV === "production" ? "strict" : "none",
+      // sameSite: env.NODE_ENV === "production" ? "strict" : "none",
       domain: env.APP_DOMAIN,
       expires,
     });
